@@ -1,6 +1,6 @@
 # Backdoor Attack on Decision Tree Model
 
-This repository demonstrates a backdoor attack on a decision tree model for the `MNIST` and `Hardware-trojan-detection` dataset. 
+This repository demonstrates a backdoor attack on a decision tree model for the `MNIST`, `Hardware-Trojan-Detection`, and `Software-Trojan-Detection` datasets. 
 
 ## Overview
 
@@ -34,7 +34,7 @@ Detailed step-by-step instructions along with Python code are provided in the no
 
 In the context of a backdoor attack, if a specific pattern or feature (such as the backdoor trigger) is injected into the data, SHAP values may indicate an unusual or unexpected influence of that feature on the model's predictions. By analyzing the SHAP values of different instances, one could potentially identify instances where the backdoor trigger has an outsized influence on the model's decision-making process.
 
-**However, detecting backdoor attacks using SHAP values would require careful analysis and interpretation, as the presence of the backdoor trigger may not always be immediately apparent. One could compare such feature number to check wherther those features exisits in the FHAP plot for backdoor. In our experimentaiton, we `did` find it in all backdoor SHAP plot. Specifically, the backdoor pixels impact high importance than other pixels**
+**However, detecting backdoor attacks using SHAP values would require careful analysis and interpretation, as the presence of the backdoor trigger may not always be immediately apparent. One could compare such feature number to check wherther those features exisits in the SHAP plot for backdoor. In our experimentaiton, we `did` find it in all backdoor SHAP plot. Specifically, the backdoor pixels impact high importance than other pixels**
 
 **It is expected to show such behavior because**
 - Features that appear near the top of the decision tree tend to have low importance because they contribute minimally to the model's decision-making process.
