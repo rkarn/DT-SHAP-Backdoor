@@ -1,6 +1,6 @@
 # Backdoor Attack Detection on Decision Tree Model
 
-This repository demonstrates a backdoor attack detection on a decision tree model for the `MNIST`, `Hardware-Trojan-Detection`, and `Software-Trojan-Detection` datasets. 
+This repository demonstrates a backdoor attack detection on a decision tree model for the `MNIST`, `Hardware-Trojan-Detection`, `Lithography-Hotspot-Detection` and `Software-Trojan-Detection` datasets. 
 
 ## Overview
 
